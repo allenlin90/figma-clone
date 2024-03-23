@@ -18,8 +18,12 @@ Get started with LiveBlocks and Next.js [https://liveblocks.io/docs/get-started/
 
 ### Live cursors chat
 1. Users can send and show real-time message to the other users on cursor location.
-2. [https://liveblocks.io/examples/live-cursors-chat/nextjs-live-cursors-chat](https://liveblocks.io/examples/live-cursors-chat/nextjs-live-cursors-chat)
-
+2. Tap <kbd>/</kbd> to show text input and type to show message to the other users.
+3. Tap <kbd>e</kbd> to show emoji buttons to click on.
+4. Tap <kbd>Esc</kbd> to escape from the reaction state. 
+5. `useBroadcastEvent` is used to show emoji reaction to the other users in the same room. 
+6. `useEventListener` to handle event broadcast from the other users such as showing the emoji. 
+7. [https://liveblocks.io/examples/live-cursors-chat/nextjs-live-cursors-chat](https://liveblocks.io/examples/live-cursors-chat/nextjs-live-cursors-chat)
 
 ## Shadcn and TailwindCSS
 
