@@ -126,7 +126,27 @@
   resolved "https://registry.yarnpkg.com/@liveblocks/core/-/core-1.11.0.tgz#9b47ac6d61550a29c3f181eda4a350f03540f9e3"
   integrity sha512-fB5ZlT/HiXHynDiVwtGz7/9ZJy9RF7nziJ7LicVvMc9OCuibLj8xl4Mp/ZHvFSAcbpWA2kKQe0m0wPawSkamIw==
 
-"@liveblocks/react@^1.11.0":
+"@liveblocks/react-comments@^1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@liveblocks/react-comments/-/react-comments-1.11.0.tgz#466bd53af12903b72c4cc089715e9ade2b21952c"
+  integrity sha512-pNqQfQnfP1okScX+0nfy8Afnq/9qv4hd/hlYNoglAt9h+t0MupvgC90uLkEvfrbTgEUDLMX3Q88C2vZyitKodg==
+  dependencies:
+    "@floating-ui/react-dom" "^2.0.2"
+    "@liveblocks/client" "1.11.0"
+    "@liveblocks/core" "1.11.0"
+    "@liveblocks/react" "1.11.0"
+    "@radix-ui/react-dropdown-menu" "^2.0.6"
+    "@radix-ui/react-popover" "^1.0.7"
+    "@radix-ui/react-slot" "^1.0.2"
+    "@radix-ui/react-toggle" "^1.0.3"
+    "@radix-ui/react-tooltip" "^1.0.7"
+    react-virtuoso "^4.6.0"
+    slate "^0.94.1"
+    slate-history "^0.93.0"
+    slate-react "^0.98.1"
+    use-sync-external-store "^1.2.0"
+
+"@liveblocks/react@1.11.0", "@liveblocks/react@^1.11.0":
   version "1.11.0"
   resolved "https://registry.yarnpkg.com/@liveblocks/react/-/react-1.11.0.tgz#ab3ade20ed3a694b9a2dc89d6267a63fd080e741"
   integrity sha512-ADBTXLDR34I2Pj8kvRTpuVkQLAf12Oqk/6zQJ3Qi5L4s9/JBzwUmmH5SqwwtXoxSJtLnIBhQaz62CB5tGrFomQ==
