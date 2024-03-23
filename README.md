@@ -10,3 +10,9 @@ Get started with LiveBlocks and Next.js [https://liveblocks.io/docs/get-started/
 4. After assigning a room, we need to wrap it with the collaborative app which we allow users to work together and interact with in `/app/page.tsx`. 
 5. In this project, we have only `1` room and wrap on the index page `/app/page.tsx` directly. 
 6. In the `/app/CollaborativeApp.tsx`, we can use `useOthers` hook to check the number of users connected in real-time. 
+
+## Shadcn and TailwindCSS
+
+Get started with Shadcn and Next.js [https://ui.shadcn.com/docs/installation/next](https://ui.shadcn.com/docs/installation/next)
+
+- This project customize both `tailwind.config.ts` and `/app/globals.css`
