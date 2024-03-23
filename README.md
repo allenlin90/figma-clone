@@ -15,6 +15,12 @@ Get started with LiveBlocks and Next.js [https://liveblocks.io/docs/get-started/
 
 1. This allows syncing the mouse cursor of the other users in the same room. 
 2. [https://liveblocks.io/examples/live-cursors/nextjs-live-cursors](https://liveblocks.io/examples/live-cursors/nextjs-live-cursors)
+
+### Live cursors chat
+1. Users can send and show real-time message to the other users on cursor location.
+2. [https://liveblocks.io/examples/live-cursors-chat/nextjs-live-cursors-chat](https://liveblocks.io/examples/live-cursors-chat/nextjs-live-cursors-chat)
+
+
 ## Shadcn and TailwindCSS
 
 Get started with Shadcn and Next.js [https://ui.shadcn.com/docs/installation/next](https://ui.shadcn.com/docs/installation/next)
