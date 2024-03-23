@@ -24,6 +24,14 @@ const Live = () => {
 
   const broadcast = useBroadcastEvent();
 
+  // clear unseen emojis in the background
+  useInterval(() => {
+    setReaction((reaction) =>
+      reaction.filter((r) => r.timestamp > Date.now() - 4000)
+    );
+  }, 1000);
+
+  // listen for emoji reactions from the other users
   useEventListener((eventData) => {
     const event = eventData.event as ReactionEvent;
 
