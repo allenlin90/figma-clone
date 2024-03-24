@@ -11,6 +11,7 @@ import { CursorMode, CursorState, Reaction, ReactionEvent } from '@/types/type';
 import ReactionSelector from './reaction/ReactionButton';
 import FlyingReaction from './reaction/FlyingReaction';
 import useInterval from '@/hooks/useInterval';
+import Comments from './comments/Comments';
 
 interface LiveProps {
   canvasRef: React.MutableRefObject<HTMLCanvasElement | null>;
@@ -171,7 +172,7 @@ const Live = ({ canvasRef }: LiveProps) => {
       onPointerLeave={handlePointLeave}
       onPointerDown={handlePointDown}
       onPointerUp={handlePointerUp}
-      className='h-[100vh] w-full flex justify-center items-center text-center'
+      className='relative h-full w-full flex flex-1 justify-center items-center'
     >
       <canvas ref={canvasRef} />
       {reaction.map((r) => (
@@ -195,7 +196,10 @@ const Live = ({ canvasRef }: LiveProps) => {
       {cursorState.mode === CursorMode.ReactionSelector && (
         <ReactionSelector setReaction={setReactions} />
       )}
+
       <LiveCursors others={others} />
+
+      <Comments />
     </div>
   );
 };
