@@ -11,6 +11,7 @@ import {
   handleCanvasMouseMove,
   handleCanvasMouseUp,
   handleCanvasObjectModified,
+  handleCanvasObjectScaling,
   handleCanvasSelectionCreated,
   handleResize,
   initializeFabric,
@@ -156,6 +157,10 @@ export default function Page() {
         isEditingRef,
         setElementAttributes,
       });
+    });
+
+    canvas.on('object:scaling', (options) => {
+      handleCanvasObjectScaling({ options, setElementAttributes });
     });
 
     window.addEventListener('resize', () => {
