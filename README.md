@@ -25,6 +25,10 @@ Get started with LiveBlocks and Next.js [https://liveblocks.io/docs/get-started/
 6. `useEventListener` to handle event broadcast from the other users such as showing the emoji. 
 7. [https://liveblocks.io/examples/live-cursors-chat/nextjs-live-cursors-chat](https://liveblocks.io/examples/live-cursors-chat/nextjs-live-cursors-chat)
 
+### Live Avatar stack
+1. Users can check active status and if there's any other users in the same room.
+2. [https://liveblocks.io/examples/live-avatar-stack/nextjs-live-avatars](https://liveblocks.io/examples/live-avatar-stack/nextjs-live-avatars)
+
 ## Shadcn and TailwindCSS
 
 Get started with Shadcn and Next.js [https://ui.shadcn.com/docs/installation/next](https://ui.shadcn.com/docs/installation/next)
