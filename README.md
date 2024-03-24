@@ -36,6 +36,15 @@ Get started with LiveBlocks and Next.js [https://liveblocks.io/docs/get-started/
 4. Using `useStorage` hook with the data structure defined in `Storage`.
 5. [https://liveblocks.io/document/storage](https://liveblocks.io/document/storage)
 
+### LiveBlocks comments
+1. A thread of comments can overlay anywhere in the app.
+2. When a user add new a comment to a thread, other users will be synced and able to check/react to the comment.
+3. Using `useCreateThread` hook to create a new thread for comments.
+4. A new thread can only be created in the area of the canvas, not in top nav or either left or right-sidebar. 
+5. Using `useThreads` to read threads from Liveblocks. 
+6. When rending threads on canvas, we need to pin the UI on specific coords with z-index which inferred from `useMaxZIndex` hook when creating the thread. 
+7. [https://liveblocks.io/docs/get-started/nextjs-comments](https://liveblocks.io/docs/get-started/nextjs-comments)
+
 ## Shadcn and TailwindCSS
 
 Get started with Shadcn and Next.js [https://ui.shadcn.com/docs/installation/next](https://ui.shadcn.com/docs/installation/next)
