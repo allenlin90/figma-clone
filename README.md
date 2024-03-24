@@ -11,6 +11,20 @@ Get started with LiveBlocks and Next.js [https://liveblocks.io/docs/get-started/
 5. In this project, we have only `1` room and wrap on the index page `/app/page.tsx` directly. 
 6. In the `/app/CollaborativeApp.tsx`, we can use `useOthers` hook to check the number of users connected in real-time. 
 
+### Live cursors
+
+1. This allows syncing the mouse cursor of the other users in the same room. 
+2. [https://liveblocks.io/examples/live-cursors/nextjs-live-cursors](https://liveblocks.io/examples/live-cursors/nextjs-live-cursors)
+
+### Live cursors chat
+1. Users can send and show real-time message to the other users on cursor location.
+2. Tap <kbd>/</kbd> to show text input and type to show message to the other users.
+3. Tap <kbd>e</kbd> to show emoji buttons to click on.
+4. Tap <kbd>Esc</kbd> to escape from the reaction state. 
+5. `useBroadcastEvent` is used to show emoji reaction to the other users in the same room. 
+6. `useEventListener` to handle event broadcast from the other users such as showing the emoji. 
+7. [https://liveblocks.io/examples/live-cursors-chat/nextjs-live-cursors-chat](https://liveblocks.io/examples/live-cursors-chat/nextjs-live-cursors-chat)
+
 ## Shadcn and TailwindCSS
 
 Get started with Shadcn and Next.js [https://ui.shadcn.com/docs/installation/next](https://ui.shadcn.com/docs/installation/next)
