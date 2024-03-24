@@ -29,6 +29,13 @@ Get started with LiveBlocks and Next.js [https://liveblocks.io/docs/get-started/
 1. Users can check active status and if there's any other users in the same room.
 2. [https://liveblocks.io/examples/live-avatar-stack/nextjs-live-avatars](https://liveblocks.io/examples/live-avatar-stack/nextjs-live-avatars)
 
+### LiveBlocks document
+1. This stores the elements/objects created on the canvas for multiple users to collaborate in the same LiveBlocks room. 
+2. We can update the `type Storage` for the data storage schema in `liveblocks.config.ts`.
+3. Using `useMutation` to update and sync data storage to users. 
+4. Using `useStorage` hook with the data structure defined in `Storage`.
+5. [https://liveblocks.io/document/storage](https://liveblocks.io/document/storage)
+
 ## Shadcn and TailwindCSS
 
 Get started with Shadcn and Next.js [https://ui.shadcn.com/docs/installation/next](https://ui.shadcn.com/docs/installation/next)
