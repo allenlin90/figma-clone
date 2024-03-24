@@ -11,6 +11,7 @@ import { CursorMode, CursorState, Reaction, ReactionEvent } from '@/types/type';
 import ReactionSelector from './reaction/ReactionButton';
 import FlyingReaction from './reaction/FlyingReaction';
 import useInterval from '@/hooks/useInterval';
+import Comments from './comments/Comments';
 
 interface LiveProps {
   canvasRef: React.MutableRefObject<HTMLCanvasElement | null>;
@@ -195,7 +196,10 @@ const Live = ({ canvasRef }: LiveProps) => {
       {cursorState.mode === CursorMode.ReactionSelector && (
         <ReactionSelector setReaction={setReactions} />
       )}
+
       <LiveCursors others={others} />
+
+      <Comments />
     </div>
   );
 };
