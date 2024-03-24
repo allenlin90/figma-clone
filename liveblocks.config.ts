@@ -15,7 +15,7 @@ const client = createClient({
     //   avatar: userData.avatar.src,
     // }));
 
-    return [];
+    return userIds.map((userId) => ({ id: userId }));
   },
   async resolveMentionSuggestions({ text }) {
     // Used only for Comments. Return a list of userIds that match `text`.
