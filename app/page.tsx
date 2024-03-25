@@ -13,6 +13,7 @@ import {
   handleCanvasObjectModified,
   handleCanvasObjectScaling,
   handleCanvasSelectionCreated,
+  handlePathCreated,
   handleResize,
   initializeFabric,
   renderCanvas,
@@ -161,6 +162,10 @@ export default function Page() {
 
     canvas.on('object:scaling', (options) => {
       handleCanvasObjectScaling({ options, setElementAttributes });
+    });
+
+    canvas.on('path:created', (options) => {
+      handlePathCreated({ options, syncShapeInStorage });
     });
 
     window.addEventListener('resize', () => {
