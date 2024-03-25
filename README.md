@@ -45,6 +45,10 @@ Get started with LiveBlocks and Next.js [https://liveblocks.io/docs/get-started/
 6. When rending threads on canvas, we need to pin the UI on specific coords with z-index which inferred from `useMaxZIndex` hook when creating the thread. 
 7. [https://liveblocks.io/docs/get-started/nextjs-comments](https://liveblocks.io/docs/get-started/nextjs-comments)
 
+### LiveBlocks dev tool 
+
+[https://liveblocks.io/devtools](https://liveblocks.io/devtools)
+
 ## Shadcn and TailwindCSS
 
 Get started with Shadcn and Next.js [https://ui.shadcn.com/docs/installation/next](https://ui.shadcn.com/docs/installation/next)
