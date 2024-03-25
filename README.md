@@ -50,3 +50,10 @@ Get started with LiveBlocks and Next.js [https://liveblocks.io/docs/get-started/
 Get started with Shadcn and Next.js [https://ui.shadcn.com/docs/installation/next](https://ui.shadcn.com/docs/installation/next)
 
 - This project customize both `tailwind.config.ts` and `/app/globals.css`
+
+1. `button`
+2. `context-menu`
+3. `dropdown-menu`
+4. `input`
+5. `label`
+6. `select`
