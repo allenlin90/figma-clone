@@ -61,3 +61,9 @@ Get started with Shadcn and Next.js [https://ui.shadcn.com/docs/installation/nex
 4. `input`
 5. `label`
 6. `select`
+
+# Next.js
+
+## SSR issue
+- To prevent SSR `canvas` element which will never work, we use `dynamic` import and set `ssr=false` in `page.tsx` and import the app from `App.tsx`. 
+- [https://nextjs.org/docs/app/building-your-application/optimizing/lazy-loading#skipping-ssr](https://nextjs.org/docs/app/building-your-application/optimizing/lazy-loading#skipping-ssr)
